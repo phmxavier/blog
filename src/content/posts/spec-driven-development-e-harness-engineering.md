@@ -1,6 +1,6 @@
 ---
-title: "Spec-Driven Development e Harness Engineering: a próxima camada de maturidade no desenvolvimento assistido por IA"
-description: "Entenda como Spec-Driven Development e Harness Engineering ajudam equipes de engenharia a utilizar IA com previsibilidade, qualidade arquitetural e governança técnica."
+title: "Spec-Driven Development e Harness Engineering"
+description: "a próxima camada de maturidade no desenvolvimento assistido por IA"
 pubDate: "2026-06-09"
 updatedDate: "2026-06-09"
 author: "Pedro Xavier"
