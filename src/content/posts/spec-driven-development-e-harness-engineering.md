@@ -21,8 +21,6 @@ cover:
 summary: "O uso de IA no desenvolvimento de software está evoluindo rapidamente, mas muitas equipes ainda dependem de abordagens informais baseadas em prompts e ajustes manuais. Este artigo explora como Spec-Driven Development e Harness Engineering podem transformar a IA de uma ferramenta de geração de código em um componente governado de um processo de engenharia escalável, previsível e alinhado à arquitetura corporativa."
 ---
 
-# Spec-Driven Development e Harness Engineering: a próxima camada de maturidade no desenvolvimento assistido por IA
-
 Nos últimos anos, a inteligência artificial deixou de ser uma ferramenta experimental para se tornar parte do fluxo cotidiano de desenvolvimento de software. Em muitas equipes, já é difícil encontrar um desenvolvedor que não utilize algum assistente baseado em modelos de linguagem para escrever código, gerar testes, produzir documentação ou explorar alternativas de implementação. O ganho de produtividade é evidente e, em muitos casos, impressionante. Tarefas que antes consumiam horas agora podem ser realizadas em minutos.
 
 Entretanto, conforme a adoção dessas ferramentas amadurece, começa a surgir uma percepção importante. A velocidade de geração de código não resolve, por si só, os problemas fundamentais da engenharia de software. Em alguns cenários, ela apenas acelera a chegada de problemas que já existiam. Quando observamos sistemas construídos com forte dependência de IA durante alguns meses, é comum encontrar inconsistências arquiteturais, duplicação de lógica de negócio, divergências de padrões entre equipes e um crescimento acelerado do débito técnico.
