@@ -231,8 +231,9 @@ blockquote {
   width: calc(100% + 3rem);
   max-width: none;
   height: auto;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 16 / 7;
   object-fit: cover;
+  object-position: top center;
   margin: -1.5rem -1.5rem 1.1rem;
   border-bottom: 1px solid var(--border);
 }
@@ -364,6 +365,7 @@ blockquote {
 
   .post-card-cover {
     width: calc(100% + 2.5rem);
+    aspect-ratio: 16 / 8;
     margin: -1.25rem -1.25rem 1rem;
   }
 }
