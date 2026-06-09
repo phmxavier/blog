@@ -1,0 +1,21 @@
+---
+import { SITE_TITLE, withBase } from '../utils/site';
+---
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href={withBase('/')}>
+      <span class="brand-mark">PX</span>
+      <span>{SITE_TITLE}</span>
+    </a>
+
+    <nav aria-label="Principal">
+      <ul class="nav-list">
+        <li><a href={withBase('/')}>Inicio</a></li>
+        <li><a href={withBase('/about')}>Sobre</a></li>
+        <li><a href={withBase('/rss.xml')}>RSS</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+

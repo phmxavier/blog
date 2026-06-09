@@ -1,0 +1,68 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import { formatDate, getReadingTime, type PostEntry } from '../utils/posts';
+import { slugifyTag, withBase } from '../utils/site';
+
+interface Props {
+  post: PostEntry;
+}
+
+const { post } = Astro.props;
+const readingTime = getReadingTime(post.body ?? '');
+const socialImage = post.data.ogImage?.src ?? post.data.coverImage?.src;
+---
+
+<BaseLayout
+  title={post.data.title}
+  description={post.data.description}
+  pathname={Astro.url.pathname}
+  type="article"
+  image={socialImage}
+>
+  <article class="container article-shell">
+    <header class="article-header">
+      <p class="eyebrow">Blog</p>
+      <h1>{post.data.title}</h1>
+      <p class="article-description">{post.data.description}</p>
+
+      {post.data.coverImage && (
+        <img
+          class="article-cover"
+          src={post.data.coverImage.src}
+          width={post.data.coverImage.width}
+          height={post.data.coverImage.height}
+          alt={`Imagem de capa do post ${post.data.title}`}
+          loading="eager"
+        />
+      )}
+
+      <div class="article-meta">
+        <span>Publicado em {formatDate(post.data.pubDate)}</span>
+        <span aria-hidden="true">·</span>
+        <span>{readingTime} min de leitura</span>
+        {post.data.updatedDate && (
+          <>
+            <span aria-hidden="true">·</span>
+            <span>Atualizado em {formatDate(post.data.updatedDate)}</span>
+          </>
+        )}
+      </div>
+
+      {post.data.tags.length > 0 && (
+        <ul class="tag-list" aria-label="Tags do post">
+          {post.data.tags.map((tag) => (
+            <li>
+              <a class="tag-pill" href={withBase(`/tags/${slugifyTag(tag)}`)}>
+                {tag}
+              </a>
+            </li>
+          ))}
+        </ul>
+      )}
+    </header>
+
+    <div class="prose">
+      <slot />
+    </div>
+  </article>
+</BaseLayout>

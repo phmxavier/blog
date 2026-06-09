@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
+import { getPublishedPosts } from '../utils/posts';
+
+const posts = await getPublishedPosts();
+---
+
+<BaseLayout>
+  <section class="container hero">
+    <p class="eyebrow">Blog pessoal</p>
+    <h1>Escrita tecnica com foco em clareza, arquitetura e software real.</h1>
+    <p class="hero-copy">
+      Textos sobre desenvolvimento, IA aplicada e decisoes de engenharia que valem
+      a pena documentar.
+    </p>
+  </section>
+
+  <section class="container section-block">
+    <div class="section-heading">
+      <h2>Posts publicados</h2>
+      <p>{posts.length} artigo{posts.length === 1 ? '' : 's'} disponivel{posts.length === 1 ? '' : 'eis'}.</p>
+    </div>
+
+    {posts.length > 0 ? (
+      <div class="post-grid">
+        {posts.map((post) => (
+          <PostCard post={post} />
+        ))}
+      </div>
+    ) : (
+      <p>Nenhum post publicado ainda.</p>
+    )}
+  </section>
+</BaseLayout>
+

@@ -1,0 +1,34 @@
+---
+import { absoluteUrl, SITE_DESCRIPTION, SITE_TITLE } from '../utils/site';
+
+interface Props {
+  title?: string;
+  description?: string;
+  pathname?: string;
+  type?: 'website' | 'article';
+  image?: string;
+}
+
+const {
+  title = SITE_TITLE,
+  description = SITE_DESCRIPTION,
+  pathname = Astro.url.pathname,
+  type = 'website',
+  image
+} = Astro.props;
+
+const pageTitle = title === SITE_TITLE ? title : `${title} | ${SITE_TITLE}`;
+const canonical = absoluteUrl(pathname, Astro.site);
+const imageUrl = image ? absoluteUrl(image, Astro.site) : undefined;
+---
+
+<title>{pageTitle}</title>
+<meta name="description" content={description} />
+<meta property="og:title" content={pageTitle} />
+<meta property="og:description" content={description} />
+<meta property="og:type" content={type} />
+<meta property="og:url" content={canonical} />
+{imageUrl && <meta property="og:image" content={imageUrl} />}
+<meta name="twitter:card" content="summary_large_image" />
+{imageUrl && <meta name="twitter:image" content={imageUrl} />}
+<link rel="canonical" href={canonical} />

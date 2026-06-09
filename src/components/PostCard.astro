@@ -1,0 +1,49 @@
+---
+import type { PostEntry } from '../utils/posts';
+import { formatDate, getReadingTime } from '../utils/posts';
+import { slugifyTag, withBase } from '../utils/site';
+
+interface Props {
+  post: PostEntry;
+}
+
+const { post } = Astro.props;
+const readingTime = getReadingTime(post.body ?? '');
+---
+
+<article class="post-card">
+  {post.data.coverImage && (
+    <img
+      class="post-card-cover"
+      src={post.data.coverImage.src}
+      width={post.data.coverImage.width}
+      height={post.data.coverImage.height}
+      alt={`Imagem de capa do post ${post.data.title}`}
+      loading="lazy"
+    />
+  )}
+
+  <div class="post-card-meta">
+    <span>{formatDate(post.data.pubDate)}</span>
+    <span aria-hidden="true">·</span>
+    <span>{readingTime} min de leitura</span>
+  </div>
+
+  <h2 class="post-card-title">
+    <a href={withBase(`/blog/${post.id}`)}>{post.data.title}</a>
+  </h2>
+
+  <p class="post-card-description">{post.data.description}</p>
+
+  {post.data.tags.length > 0 && (
+    <ul class="tag-list" aria-label="Tags do post">
+      {post.data.tags.map((tag) => (
+        <li>
+          <a class="tag-pill" href={withBase(`/tags/${slugifyTag(tag)}`)}>
+            {tag}
+          </a>
+        </li>
+      ))}
+    </ul>
+  )}
+</article>
