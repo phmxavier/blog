@@ -47,6 +47,8 @@ No GitHub:
 
 1. Abra `Settings > Pages`.
 2. Em `Build and deployment`, selecione `Source: GitHub Actions`.
+3. Salve a configuração antes de esperar o primeiro deploy. Sem isso, a action
+   `actions/configure-pages` falha com `Get Pages site failed`.
 
 ## Dominio customizado
 
@@ -59,4 +61,3 @@ Quando `blog.pedroxavier.com` for ativado:
 3. Mantenha `public/CNAME` com `blog.pedroxavier.com`.
 4. Configure `Settings > Pages > Custom domain` no GitHub.
 5. No DNS, aponte `blog` para `phmxavier.github.io` com um registro `CNAME`.
-
