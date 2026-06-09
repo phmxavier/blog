@@ -10,7 +10,7 @@ const githubPagesBase = '/blog';
 // Fase 2: quando `blog.pedroxavier.com` estiver ativo, troque `site` para
 // `https://blog.pedroxavier.com`, ajuste `base` para `/` e mantenha `public/CNAME`.
 const customDomainSite = 'https://blog.pedroxavier.com';
-const useCustomDomain = false;
+const useCustomDomain = true;
 
 export default defineConfig(({ command }) => {
   const isDev = command === 'dev';
