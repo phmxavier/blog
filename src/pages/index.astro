@@ -19,7 +19,7 @@ const posts = await getPublishedPosts();
   <section class="container section-block">
     <div class="section-heading">
       <h2>Posts publicados</h2>
-      <p>{posts.length} artigo{posts.length === 1 ? '' : 's'} disponivel{posts.length === 1 ? '' : 'eis'}.</p>
+      <p>{posts.length} artigo{posts.length === 1 ? '' : 's'} disponive{posts.length === 1 ? 'l' : 'is'}.</p>
     </div>
 
     {posts.length > 0 ? (
