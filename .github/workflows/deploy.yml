@@ -9,8 +9,6 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: pages
@@ -20,6 +18,8 @@ jobs:
   build:
     name: Build Astro site
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -53,6 +53,10 @@ jobs:
     name: Deploy Astro site
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
 
     environment:
       name: github-pages
