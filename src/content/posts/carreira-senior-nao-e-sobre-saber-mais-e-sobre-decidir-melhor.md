@@ -3,11 +3,11 @@ title: "Carreira sênior não é sobre saber mais — é sobre decidir melhor"
 description: "Senioridade em tecnologia envolve decisões conscientes, impacto duradouro e autoridade, mais do que apenas conhecimento"
 pubDate: 2026-01-26
 tags:
-  - dev
-  - carreira
-  - reflexoes
   - carreira-tech
   - senioridade
+  - lideranca-tecnica
+  - tomada-de-decisao
+  - reflexoes
 draft: false
 ---
 

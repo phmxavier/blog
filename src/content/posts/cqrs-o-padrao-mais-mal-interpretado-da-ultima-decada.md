@@ -5,10 +5,11 @@ pubDate: 2026-01-12
 coverImage: ./images/cqrs-o-padrao-mais-mal-interpretado-da-ultima-decada/c54bc3ca-bf23-44d2-bbe0-8e2b343a47aa.png
 ogImage: ./images/cqrs-o-padrao-mais-mal-interpretado-da-ultima-decada/8ecd965f-ab5f-4884-8ae2-b904b8a9bb3a.png
 tags:
-  - software-development
-  - architecture
   - cqrs
-  - maturity
+  - arquitetura-de-software
+  - software-development
+  - modelagem-de-sistemas
+  - maturidade-tecnica
 draft: false
 ---
 

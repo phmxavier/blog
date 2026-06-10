@@ -6,15 +6,9 @@ coverImage: ./images/o-poder-do-clean-code/545c8531-8da0-4faa-b64b-1c5d7da80620.
 tags:
   - clean-code
   - desenvolvimento-de-software
-  - codigo-limpo
   - boas-praticas-de-programacao
-  - manutencao-de-codigo
   - legibilidade-de-codigo
   - refatoracao
-  - duplicacao-de-codigo
-  - documentacao-de-software
-  - consistencia-no-codigo
-  - padroes-de-codigo
   - qualidade-de-software
 draft: false
 ---

@@ -3,10 +3,11 @@ title: "Make or Buy"
 description: "Decisão de construir ou comprar plataformas em fintechs envolve custos ocultos e a importância de identificar falhas rapidamente"
 pubDate: 2026-01-19
 tags:
-  - management
-  - technology
-  - decision-making
   - make-or-buy
+  - tomada-de-decisao
+  - arquitetura-de-software
+  - plataformas
+  - estrategia
 draft: false
 ---
 

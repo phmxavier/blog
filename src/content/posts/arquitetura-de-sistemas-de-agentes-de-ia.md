@@ -3,11 +3,11 @@ title: "Arquitetura de Sistemas de Agentes de IA"
 description: "Explorar arquiteturas de IA para cooperação eficaz: design, comunicação, escalabilidade e segurança em ambientes multiagente"
 pubDate: 2025-10-06
 tags:
-  - python
-  - architecture
+  - inteligencia-artificial
+  - arquitetura-de-software
   - langchain
   - agentic-ai
-  - multi-agent-systems-mas
+  - sistemas-multiagentes
 draft: false
 ---
 

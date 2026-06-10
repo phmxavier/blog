@@ -2,7 +2,12 @@
 title: "O que mudou no meu fluxo de trabalho quando agentes viraram rotina"
 description: "Por um tempo, eu tratei agentes como muita gente trata uma demo boa: algo impressionante o bastante para render conversa, mas ainda longe de virar parte..."
 pubDate: 2026-03-28
-tags: []
+tags:
+  - agentic-ai
+  - fluxo-de-trabalho
+  - context-engineering
+  - produtividade
+  - desenvolvimento-de-software
 draft: false
 ---
 

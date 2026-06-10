@@ -5,11 +5,12 @@ pubDate: 2025-12-07
 coverImage: ./images/estrategias-de-versionamento-no-git-gitflow-trunk-based-e-commits-que-contam-historia/c093c531-d353-4894-97cf-87f1b8017736.png
 ogImage: ./images/estrategias-de-versionamento-no-git-gitflow-trunk-based-e-commits-que-contam-historia/63db6644-c49e-43fc-80b8-8c8b6540fcdd.png
 tags:
-  - github
   - git
   - gitflow
   - conventional-commits
   - trunk-based-development
+  - versionamento
+  - ci-cd
 draft: false
 ---
 

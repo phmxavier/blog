@@ -4,9 +4,12 @@ description: "AWS Strands Agents facilita criar agentes autônomos em Python com
 pubDate: 2026-02-09
 coverImage: ./images/strands-agents-framework-da-aws-para-agentes-autonomos-em-python/794525fa-7f4f-463e-85c8-7b01c85ee265.png
 tags:
-  - ia
+  - aws
+  - python
   - agentic-ai
   - strands-agents
+  - mcp
+  - multi-agent-systems
   - strands
 draft: false
 ---

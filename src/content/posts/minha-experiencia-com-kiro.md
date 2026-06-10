@@ -3,13 +3,12 @@ title: "Quando a IA deixa de ser chat e começa a virar sistema de trabalho: por
 description: "Um relato técnico sobre por que o Kiro se destacou no meu fluxo com Skills, Specs, Steering, Hooks e MCP para estruturar trabalho complexo com IA."
 pubDate: 2026-04-21
 tags:
-  - aws
   - inteligencia-artificial
-  - desenvolvimento-de-software
   - ai-coding
-  - engenharia-de-software
   - kiro
-  - aws-kiro
+  - mcp
+  - spec-driven-development
+  - engenharia-de-software
 draft: false
 ---
 

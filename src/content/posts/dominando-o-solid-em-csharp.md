@@ -5,18 +5,12 @@ pubDate: 2024-03-16
 coverImage: ./images/dominando-o-solid-em-csharp/f2aa517a-07cc-45bd-b882-81714980f951.png
 ogImage: ./images/dominando-o-solid-em-csharp/8949aee5-4713-46e9-91d3-323cd08659ae.png
 tags:
-  - refactoring
   - csharp
   - solid
-  - poo
-  - desenvolvimento-de-software
-  - engenharia-de-software
   - boas-praticas-de-programacao
   - refatoracao
   - programacao-orientada-a-objetos
-  - desing-de-software
-  - principios-de-design
-  - robert-c-martin
+  - design-de-software
 draft: false
 ---
 

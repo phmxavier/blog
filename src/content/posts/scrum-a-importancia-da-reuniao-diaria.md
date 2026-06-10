@@ -5,14 +5,13 @@ pubDate: 2025-01-19
 coverImage: ./images/scrum-a-importancia-da-reuniao-diaria/548cbf54-32ac-486c-a3c6-e81a63a44a2a.png
 ogImage: ./images/scrum-a-importancia-da-reuniao-diaria/b3a92529-9f27-4e68-98d3-28a8abcb1936.png
 tags:
-  - productivity
   - scrum
   - colaboracao
-  - agile-methodologies
   - daily-scrum
   - reuniao-diaria
   - gestao-de-projetos
   - melhoria-continua
+  - agilidade
 draft: false
 ---
 

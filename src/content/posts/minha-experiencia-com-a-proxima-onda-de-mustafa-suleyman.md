@@ -6,13 +6,10 @@ coverImage: ./images/minha-experiencia-com-a-proxima-onda-de-mustafa-suleyman/c5
 ogImage: ./images/minha-experiencia-com-a-proxima-onda-de-mustafa-suleyman/8cc6debb-62fb-43b9-ae2e-9648d5c3746b.png
 tags:
   - inteligencia-artificial
+  - livros
   - mustafa-suleyman
-  - a-proxima-onda
   - tecnologias-emergentes
-  - hiperevolucao-tecnologica
-  - omniuso
-  - assimetria-da-tecnologia
-  - corrida-tecnologica
+  - reflexoes
 draft: false
 ---
 

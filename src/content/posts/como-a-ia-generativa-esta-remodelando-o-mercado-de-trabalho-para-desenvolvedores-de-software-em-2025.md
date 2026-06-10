@@ -3,10 +3,12 @@ title: "Como a IA Generativa Está Remodelando o Mercado de Trabalho para Desenv
 description: "A IA Generativa transforma o trabalho de desenvolvedores em 2025, criando novas oportunidades e desafios"
 pubDate: 2025-09-02
 tags:
-  - developer
-  - ia
-  - evolution
-  - adaptability
+  - inteligencia-artificial
+  - ia-generativa
+  - desenvolvimento-de-software
+  - mercado-de-trabalho
+  - carreira-tech
+  - produtividade
 draft: false
 ---
 

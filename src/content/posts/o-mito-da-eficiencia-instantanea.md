@@ -3,7 +3,13 @@ title: "O mito da eficácia instantânea: IA, fluxos ruins e decisões travadas"
 description: "A esta altura, já ficou comum encontrar empresas que dizem que \"usam IA\" de forma séria. Elas têm ferramenta contratada, licenças distribuídas, prompts..."
 pubDate: 2026-03-24
 coverImage: ./images/o-mito-da-eficiencia-instantanea/00ec791e-a7e8-4bda-ac5c-10471b3ffda9.png
-tags: []
+tags:
+  - inteligencia-artificial
+  - fluxo-de-trabalho
+  - produtividade
+  - processos
+  - tomada-de-decisao
+  - engenharia-de-software
 draft: false
 ---
 

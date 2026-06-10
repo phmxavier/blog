@@ -3,10 +3,11 @@ title: "Escalar sistema é fácil. Escalar decisão é o problema."
 description: "Entenda por que escalar decisões é mais difícil que escalar sistemas e como otimizar o processo decisório nas organizações"
 pubDate: 2026-02-02
 tags:
-  - reflection
-  - decision-making
-  - architecture-decisions
+  - arquitetura-de-software
+  - tomada-de-decisao
   - escalabilidade
+  - lideranca-tecnica
+  - organizacao
 draft: false
 ---
 

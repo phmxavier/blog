@@ -6,8 +6,9 @@ coverImage: ./images/configurando-ambientes-locais-com-vscode-e-docker/f587a749-
 ogImage: ./images/configurando-ambientes-locais-com-vscode-e-docker/1d4afd48-b468-4f08-a346-963a159c37ff.avif
 tags:
   - docker
-  - developer
   - vscode
+  - devcontainer
+  - ambiente-de-desenvolvimento
 draft: false
 ---
 
