@@ -49,6 +49,8 @@ Agora imagine um cenário diferente. Em vez de uma descrição genérica, a IA r
 
 Essa distinção é mais importante do que parece. Quanto maior a clareza da especificação, menor a variabilidade dos resultados produzidos pela IA. O objetivo deixa de ser extrair criatividade do modelo e passa a ser utilizar sua capacidade de execução. Em ambientes corporativos, especialmente aqueles que operam em domínios complexos como bancos, seguradoras, plataformas de investimento ou sistemas regulados, essa previsibilidade costuma ser muito mais valiosa do que a criatividade.
 
+Mas especificação sozinha não resolve tudo. Conforme comecei a usar IA no dia a dia, percebi que outro componente se tornava igualmente importante: o ambiente de validação ao redor da IA. É aqui que entra o conceito de Harness Engineering. Enquanto o Spec-Driven Development define o que deve ser construído, o Harness Engineering define como verificar continuamente se aquilo que está sendo produzido continua aderente à especificação, às regras de negócio e aos padrões da aplicação.
+
 Por esse motivo, equipes que estão obtendo melhores resultados com IA geralmente investem mais energia na definição de contratos, comportamentos esperados e critérios de aceite do que na elaboração de prompts sofisticados. O diferencial não está em descobrir a frase mágica que fará o modelo produzir um resultado perfeito. Está em construir artefatos que reduzam ambiguidades e tornem a implementação um exercício de execução, e não de interpretação.
 
 ## Por que especificações não são suficientes
@@ -90,6 +92,18 @@ Talvez a consequência mais interessante dessa transformação seja a mudança g
 À medida que a capacidade de geração automática evolui, cresce a importância de definir problemas corretamente, estabelecer restrições claras, documentar decisões arquiteturais e construir mecanismos eficazes de governança. O valor passa a estar cada vez mais na capacidade de direcionar a execução e cada vez menos na execução em si.
 
 Isso não significa que programação deixará de ser necessária. Significa apenas que ela deixa de ser o único centro da atividade de engenharia. Da mesma forma que compiladores não eliminaram a necessidade de programadores e frameworks não eliminaram a necessidade de arquitetos, a IA não elimina a necessidade de engenharia. Ela apenas desloca parte do trabalho para camadas mais abstratas do processo.
+
+## Onde entra o Harness Engineering?
+
+Durante muito tempo pensamos em ferramentas de desenvolvimento apenas como compiladores, testes automatizados e pipelines de CI/CD. No contexto de agentes de IA, surge uma nova necessidade: construir mecanismos que guiem e validem o trabalho realizado pela IA.
+
+É isso que chamo de Harness Engineering.
+
+Na prática, um harness pode ser composto por testes automatizados, validações arquiteturais, contratos, verificações de segurança e qualquer outro mecanismo capaz de avaliar se a saída produzida pela IA atende aos critérios esperados.
+
+Se o Spec-Driven Development reduz a ambiguidade da entrada, o Harness Engineering reduz a variabilidade da saída.
+
+Os dois conceitos se complementam. Quanto melhor a especificação, mais claro fica o objetivo. Quanto melhor o harness, maior a confiança de que a implementação produzida realmente atende àquele objetivo.
 
 ## Conclusão
 
