@@ -12,19 +12,20 @@ const githubPagesBase = '/blog';
 const customDomainSite = 'https://posts.pedroxavier.com';
 const useCustomDomain = true;
 
-export default defineConfig(({ command }) => {
-  const isDev = command === 'dev';
+// O Astro espera um objeto de configuração (não uma função): com a forma
+// `defineConfig(({ command }) => ...)` o `site` era ignorado e o RSS caía no
+// fallback `https://phmxavier.github.io/blog`.
+const isDev = process.argv.includes('dev');
 
-  return {
-    site: useCustomDomain ? customDomainSite : githubPagesSite,
-    // Em desenvolvimento local, manter `/` evita a URL `http://localhost:4321/blog/blog/...`.
-    // No build para GitHub Pages, `/blog` continua necessário por causa do nome do repositório.
-    base: isDev || useCustomDomain ? '/' : githubPagesBase,
-    integrations: [mdx()],
-    markdown: {
-      shikiConfig: {
-        theme: 'github-light'
-      }
+export default defineConfig({
+  site: useCustomDomain ? customDomainSite : githubPagesSite,
+  // Em desenvolvimento local, manter `/` evita a URL `http://localhost:4321/blog/blog/...`.
+  // No build para GitHub Pages sem domínio próprio, `/blog` é necessário por causa do nome do repositório.
+  base: isDev || useCustomDomain ? '/' : githubPagesBase,
+  integrations: [mdx()],
+  markdown: {
+    shikiConfig: {
+      theme: 'github-dark'
     }
-  };
+  }
 });
