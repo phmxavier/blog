@@ -54,10 +54,10 @@ No GitHub:
 
 O projeto sai configurado para a fase inicial do GitHub Pages em `https://phmxavier.github.io/blog/`.
 
-Quando `blog.pedroxavier.com` for ativado:
+Quando `posts.pedroxavier.com` for ativado:
 
-1. Altere `astro.config.mjs` para usar `site: "https://blog.pedroxavier.com"`.
+1. Altere `astro.config.mjs` para usar `site: "https://posts.pedroxavier.com"`.
 2. Altere `astro.config.mjs` para usar `base: "/"`.
-3. Mantenha `public/CNAME` com `blog.pedroxavier.com`.
+3. Mantenha `public/CNAME` com `posts.pedroxavier.com`.
 4. Configure `Settings > Pages > Custom domain` no GitHub.
 5. No DNS, aponte `blog` para `phmxavier.github.io` com um registro `CNAME`.

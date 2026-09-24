@@ -7,9 +7,9 @@ import mdx from '@astrojs/mdx';
 const githubPagesSite = 'https://phmxavier.github.io';
 const githubPagesBase = '/blog';
 
-// Fase 2: quando `blog.pedroxavier.com` estiver ativo, troque `site` para
-// `https://blog.pedroxavier.com`, ajuste `base` para `/` e mantenha `public/CNAME`.
-const customDomainSite = 'https://blog.pedroxavier.com';
+// Fase 2: quando `posts.pedroxavier.com` estiver ativo, troque `site` para
+// `https://posts.pedroxavier.com`, ajuste `base` para `/` e mantenha `public/CNAME`.
+const customDomainSite = 'https://posts.pedroxavier.com';
 const useCustomDomain = true;
 
 export default defineConfig(({ command }) => {

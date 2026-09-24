@@ -27,12 +27,12 @@ Para criar um novo post, adicione um `.md` ou `.mdx` em `src/content/posts/` com
 
 O CI valida com `npm ci`, `npm run check` e `npm run build`. O deploy publica automaticamente o conteúdo de `dist` no GitHub Pages.
 
-## Quando ativar `blog.pedroxavier.com`
+## Quando ativar `posts.pedroxavier.com`
 
 - Em [astro.config.mjs](/Users/phmxavier/dev/blog/astro.config.mjs), troque `useCustomDomain` para `true`
-- Isso fará `site` virar `https://blog.pedroxavier.com` e `base` virar `/`
-- Mantenha [public/CNAME](/Users/phmxavier/dev/blog/public/CNAME) com `blog.pedroxavier.com`
-- No GitHub Pages, configure `Custom domain` para `blog.pedroxavier.com`
+- Isso fará `site` virar `https://posts.pedroxavier.com` e `base` virar `/`
+- Mantenha [public/CNAME](/Users/phmxavier/dev/blog/public/CNAME) com `posts.pedroxavier.com`
+- No GitHub Pages, configure `Custom domain` para `posts.pedroxavier.com`
 - No DNS, aponte `blog` para `phmxavier.github.io` com `CNAME`
 
 ## Referências
